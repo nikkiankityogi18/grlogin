@@ -1,0 +1,91 @@
+.login-page {
+  background-color: #052da7;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  object-fit: cover;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+}
+.text-box {
+  width: 275px;
+  height: 40px;
+  padding-left: 50px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #264eca;
+  border: 1px solid white;
+  color: white;
+}
+.text-box::placeholder {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+}
+.login-input-icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.textbox-container {
+  position: relative;
+  margin-top: 20px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 36px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #2148c0;
+  font-weight: 600;
+  line-height: 20px;
+}
+.forget-password {
+  color: white;
+  display: flex;
+  justify-content: end;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat";
+}
+
+.login-arrow-icon-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.error-message {
+  color: rgb(255, 179, 179);
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.popup {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+}
